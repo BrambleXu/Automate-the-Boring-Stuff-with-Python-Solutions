@@ -1,0 +1,13 @@
+def list2str(row_list):
+    output = ''
+    for i in range(len(row_list)):
+        if i != len(row_list) - 1:
+            output += row_list[i] + ', '
+        else:
+            output += 'and ' + row_list[i]
+    return output
+
+if __name__ == '__main__':
+    row_list = ['apples', 'bananas', 'tofu', 'cats']
+    print (list2str(row_list))
+    
