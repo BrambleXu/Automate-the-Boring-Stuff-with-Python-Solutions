@@ -9,13 +9,9 @@ def display_inventory(inventory):
     print ('Total number of items: '+ str(total))
 
 def add_to_inventory(inventory, addedItems):
-    for item in dragonLoot:
-        if item not in inventory:
-            inventory.setdefault(item, 1)
-        else:
-            inventory[item] += 1
-    return inventory # forget add return, error shows inv is None :()
-
+    for item in addedItems:
+        inventory[item] = inventory.get(item, 0) + 1
+    return inventory 
 
 if __name__ == '__main__':
     inv = {'gold coin': 42, 'rope': 1}
