@@ -3,7 +3,9 @@ This is my notebook for the book [*Automate_the_Boring_Stuff_with_Python*](https
 Because the book didn't give solutions for the **Practice Projects**, so I add my solutions for other learners.
 
 I hope this could help those people who study this book.
-If you have your solutions, welcome to pull a request to this project.
+
+**This project is no longer actively maintained. If you finished new solutions, welcome to pull a request to this project.**
+
 ---
 OS: MAC air
 Python: 3.5.2
