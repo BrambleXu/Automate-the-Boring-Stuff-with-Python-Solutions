@@ -6,10 +6,10 @@ I hope this could help those people who study this book.
 
 **This project is no longer actively maintained. If you finished new solutions, welcome to pull a request to this project.**
 
----
-OS: MAC air
+Environment:
+```
 Python: 3.5.2
----
+```
 
 There are two major part of each chapter. The Chapter Projects and the Practice Projects.
 There are also some errors while dealing with the chapter projects.(Like Chapter 15 the multidownloadXkcd.py)
