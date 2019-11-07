@@ -11,7 +11,7 @@ Environment:`Python 3`
 There are two major part of each chapter. The Chapter Projects and the Practice Projects.
 There are also some errors while dealing with the chapter projects.(Like Chapter 15 the multidownloadXkcd.py)
 And in each chapter floder, there is one jupyter notebook file, which recording my history with each chapter.
-> - [x] [x] means I finished both chapter projects and the practice projects in this chapter.
+> - [x] [x] means solutions are available for both chapter projects and the practice projects in this chapter.
 
 - [x] [x] Chapter 2 – Flow Control
 - [x] [x] Chapter 3 – Functions
@@ -20,7 +20,7 @@ And in each chapter floder, there is one jupyter notebook file, which recording 
 - [x] [x] Chapter 6 – Manipulating Strings
 - [x] [x] Chapter 7 – Pattern Matching with Regular Expressions
 - [x] [ ] Chapter 8 – Reading and Writing Files
-- [ ] [ ] Chapter 9 – Organizing Files
+- [ ] [x] Chapter 9 – Organizing Files
 - [x] [ ] Chapter 10 – Debugging
 - [x] [ ] Chapter 11 – Web Scraping
 - [ ] [ ] Chapter 12 – Working with Excel Spreadsheets
