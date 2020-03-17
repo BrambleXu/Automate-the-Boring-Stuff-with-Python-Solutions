@@ -10,7 +10,6 @@ You may need to test the string against multiple regex patterns to validate its 
 import re
 
 def pw_detection(pw):
-    # pw = input("Enter a pw: ")
     if len(pw) < 8:
     	return False
     elif re.search('[0-9]', pw) is None:
