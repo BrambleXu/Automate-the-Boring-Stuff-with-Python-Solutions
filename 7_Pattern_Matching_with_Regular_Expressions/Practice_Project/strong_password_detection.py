@@ -9,16 +9,22 @@ You may need to test the string against multiple regex patterns to validate its 
 '''
 import re
 
-def password_detection(pw):
-    if re.match(r'[a-zA-Z0-9]{8,}', pw):
-        return True
-    else:
+def pw_detection(pw):
+    # pw = input("Enter a pw: ")
+    if len(pw) < 8:
+    	return False
+    elif re.search('[0-9]', pw) is None:
         return False
+    elif re.search('[A-Z]',pw) is None: 
+        return False
+    elif re.search('[a-z]',pw) is None: 
+        return False
+    else:
+        return True
 
 if __name__ == '__main__':
     pw = input('Enter your password: ')
-    #print (pw)
     if password_detection(pw):
-        print ('Good, your password is strong!')
+        print('Good, your password is strong!')
     else:
         print ('The password is at least eight characters long, contains both uppercase and lowercase characters, and has at least one digit.')
