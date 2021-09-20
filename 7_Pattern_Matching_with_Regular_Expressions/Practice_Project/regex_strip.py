@@ -12,6 +12,6 @@ def regex_strip(string, rm_str=None):
 
 if __name__ == '__main__':
     string = input('Enter a string: ')
-    rm_str = input('Enter the str you want to remove from the string or just clik enter: (Optional)')
+    rm_str = input('Enter the str you want to remove from the string or just click enter: (Optional): ') # fixed spelling mistake 'clik'
     string = regex_strip(string, rm_str)
     print (string)
